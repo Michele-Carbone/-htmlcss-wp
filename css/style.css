@@ -45,13 +45,14 @@ body{
 header{
     margin-bottom: 30px;
 }
-
+/*spotlight*/
 #principal-img{
     background-image: url("../img/banner.jpg");
     height: 450px;
     background-position: center center;
     border-radius: 10px;
     opacity: 1;
+    margin: 30px 0;
 }
 #principal-img p{
     font-size: 32px;
@@ -67,3 +68,45 @@ address{
     padding: 2px 400px 20px 30px;
     text-align: justify;
 }
+
+/*leadership*/
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.autore{
+    font-size: 20px;
+    color: rgba(1, 56, 33, 0.986);
+    padding-left: 0;
+}
+
+.first-col > img{
+    position: center;
+    background-repeat: no-repeat;
+    text-align: left;
+    height: 100%;
+    vertical-align: middle;
+
+}
+.second-col{
+    position: center;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+.text-img{
+    vertical-align: bottom;
+}
+
+
+.leadership .columns .col{
+    float: left;
+    width: 25%;
+
+}
+
+.leadership .columns .col .second-col{ 
+    /*width: calc(50% - 40px);*/
+    padding: 0 20px;
+    height: 100%;
+    width: 100%;
