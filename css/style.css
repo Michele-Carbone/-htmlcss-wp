@@ -70,6 +70,12 @@ address{
 }
 
 /*leadership*/
+.leadership{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
 h1{
     font-size: 40px;
     font-weight: 700;
@@ -80,33 +86,54 @@ h1{
     padding-left: 0;
 }
 
-.first-col > img{
-    position: center;
-    background-repeat: no-repeat;
-    text-align: left;
-    height: 100%;
-    vertical-align: middle;
-
-}
-.second-col{
-    position: center;
-    background-repeat: no-repeat;
-    text-align: left;
-}
-
-.text-img{
-    vertical-align: bottom;
-}
-
-
 .leadership .columns .col{
     float: left;
     width: 25%;
-
 }
 
-.leadership .columns .col .second-col{ 
-    /*width: calc(50% - 40px);*/
-    padding: 0 20px;
-    height: 100%;
+.leadership .columns .col:nth-child(2){ 
+    width: calc(50% - 40px);
+    margin: 0 20px;
+}
+.leadership .columns .first-col img{
     width: 100%;
+    height: 150px;
+    opacity: 1;
+    border-radius: 10px;
+}
+.leadership .columns .second-col img{
+    width: 100%;
+    height: 150px;
+    opacity: 1;
+    border-radius: 10px;
+}
+.leadership .columns .last-col img{
+    width: 100%;
+    height: 150px;
+    opacity: 1;
+    border-radius: 10px;
+}
+.leadership .columns .col .text-img{
+    text-align: left;
+    padding: 5px 0;
+    color: rgba(1, 56, 33, 0.986);
+}
+.leadership .columns .col .text-img h4{
+    margin: 5px 0;
+    padding: 10px 0;
+    color: rgba(1, 56, 33, 0.986);
+}
+
+footer{
+    margin-top: 10px;
+}
+
+footer .conclusion{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+footer .conclusion span{
+    color: red;
+    font-size: 50px;
+}
